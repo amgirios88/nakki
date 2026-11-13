@@ -3,9 +3,11 @@
 
 ## Contenido
 1. [¿Quién es Nakki?](##-1.-¿Quién-es-Nakki?)
-2. [Juega con Nakki](## 2. Juega con Nakki)
-3. [Nakki en Phasmophobia](## 3. Nakki en Phasmophobia)
-4. [Nakki en 7 Days to Die](## 4. Nakki en 7 Days to Die)
+2. [Juega con Nakki](##-2.-Juega-con-Nakki)
+3. [Nakki en Phasmophobia](##-3.-Nakki-en-Phasmophobia)
+4. [Nakki en 7 Days to Die](##-4.-Nakki-en-7-Days-to-Die)
+5. [Nakki en otros juegose](##-5.-Nakki-en-otros-juegos)
+6. [Nakki en The Sims 4](##-6.-Nakki-en-The-Sims-4)
 
 ## 1. ¿Quién es Nakki?
 Nakki es la maestra de ceremonias del canal.
@@ -37,6 +39,13 @@ Esta es la información general de cómo Nakki funciona en el contexto del 7D2D.
 Estos son los comandos que pueden usarse con el Twitch integrated. También los podéis encontrar online, pero los dejo aquí para que esté todo en el mismo sitio.
 ![7D2D Twitch Integration](https://github.com/amgirios88/nakki/blob/9c4188ebc61d00c12660b081a919a2b045cd8c78/images/nakki_guia_7dtd.png)
 
-Si tenéis alguna sugerencia, podéis mandarla al Twitter del canal (@CircDeLHorta).
+Jugamos ahora mismo con el mod REBIRTH, y luego tres mods que he creado yo (quizás algún día los publique): mod que permite a los zombis ahogarse si entran en el agua (esto lo hice porque queríamos poder tener una base en medio de un lago jaja); mod que genera un porcentaje de subbioma "deep forest" dentro del bioma bosque que tiene más densidad de árboles y niebla densa, además el hierro sólo se encuentra ahí; y finalmente un mod que introduce sanidad, descontando sanidad a más permanecemos en la oscuridad, obligándonos a encontrar un balance entre ir a escondidas y evitar los efectos de baja sanidad (tipo borracho).
 
+## 5. Nakki en otros juegose
+En el resto de juegos (Remnant 2, Lords of the Fallen, RunEscape Dragonwilds, etc), Nakki aún cuenta las muertas (y sustos cuando aplique), y los comandos básicos aplican (tintar pantalla, gif, sonido...). De momento sólo puede afectarme a mí, pero próximamente iré añadiendo para que también se le pueda hacer a mis compañeras.
+
+## 6. Nakki en The Sims 4
+Estoy trabajando en un mod en el que Nakki puede controlar un Sim (tanto en solitario como un Sim que vive con el mío), mientras oímos sus pensamientos y por qué decide hacer ciertas acciones. Todo on-premises, usando los recursos de mi portátil en exclusiva. Pero aún está en desarrollo (soy nueva a moddear los Sims).
+
+## Si tenéis alguna sugerencia, podéis mandarla al Twitter del canal (@CircDeLHorta).
 (Nakki es un script hecho por Rachy. No muerde. Casi. · Disclaimer: Nakki es un programa offline que lee el chat en tiempo real. Nakki’s voice (AlesiaDavina, Pixabay))
