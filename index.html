@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nakki · Circ de l'Horta</title>
+<meta name="description" content="Nakki, la maestra de ceremonias del Circ de l'Horta: qué es, cómo jugar con ella desde el chat de Twitch y sus comandos en cada juego.">
+<link rel="icon" href="images/cafe.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Lilita+One&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#dd9ab2; --pink2:#d48aa6; --rose:#a23a6d; --plum:#5a1a3f; --ink:#3c0f29;
+  --cream:#f6ead2; --paper:#fbf3e2; --gold:#f2c46d; --green:#2be04a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:20px/1.5 "Patrick Hand",Georgia,serif;
+  background:repeating-conic-gradient(from 0deg at 50% 0%,var(--pink) 0 5deg,var(--pink2) 5deg 10deg) fixed;
+  min-height:100vh}
+a{color:var(--rose)}
+img{max-width:100%;display:block}
+
+/* tent valance */
+.valance{height:56px;position:sticky;top:0;z-index:10;
+  background:
+    radial-gradient(circle at 30px 26px,var(--rose) 29px,transparent 30px) 0 0/120px 56px repeat-x,
+    radial-gradient(circle at 90px 26px,var(--cream) 29px,transparent 30px) 0 0/120px 56px repeat-x,
+    linear-gradient(90deg,var(--rose) 0 60px,var(--cream) 60px 120px) 0 0/120px 26px repeat-x;
+  filter:drop-shadow(0 4px 4px rgba(60,10,40,.35))}
+.valance::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:var(--plum)}
+
+header{text-align:center;padding:26px 16px 10px;position:relative}
+.hero{display:inline-block;position:relative;padding:22px 26px 26px;border-radius:24px;background:var(--paper);
+  box-shadow:inset 0 0 0 5px var(--gold),inset 0 0 0 10px var(--rose),0 12px 26px rgba(60,10,40,.35)}
+.bulbs{position:absolute;inset:-9px;pointer-events:none;border-radius:30px;
+  background:radial-gradient(circle,#fff6c9 0 4px,var(--gold) 5px 7px,transparent 8px) 0 0/34px 34px;
+  -webkit-mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+  padding:9px;animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{filter:brightness(.6)}}
+.hero img{width:210px;margin:0 auto -6px;filter:drop-shadow(0 8px 10px rgba(60,10,40,.35));animation:bob 3.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.ribbon{display:inline-block;position:relative;margin-top:10px;padding:6px 40px 8px;background:var(--rose);color:var(--cream);
+  font:clamp(38px,8vw,64px)/1 Rye,serif;letter-spacing:4px;text-shadow:4px 5px 0 var(--ink);
+  box-shadow:inset 0 5px 0 var(--gold),inset 0 -5px 0 var(--gold),0 8px 14px rgba(60,10,40,.4)}
+.ribbon::before,.ribbon::after{content:"";position:absolute;top:14px;border:28px solid var(--plum);z-index:-1}
+.ribbon::before{left:-42px;border-left-color:transparent}
+.ribbon::after{right:-42px;border-right-color:transparent}
+.sub{margin:14px auto 0;max-width:620px;font-size:22px}
+.twitch{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:8px 20px;border-radius:999px;background:var(--plum);
+  color:var(--cream);text-decoration:none;font:20px "Lilita One",sans-serif;box-shadow:inset 0 0 0 3px var(--gold)}
+.twitch:hover{background:var(--rose)}
+
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:22px auto 6px;max-width:980px;padding:0 16px}
+nav a{padding:6px 16px;border-radius:999px;background:var(--cream);color:var(--plum);text-decoration:none;
+  font:18px "Lilita One",sans-serif;box-shadow:0 3px 0 var(--plum),inset 0 0 0 2px var(--rose)}
+nav a:hover{background:var(--gold)}
+
+main{max-width:980px;margin:0 auto;padding:10px 16px 40px}
+section{position:relative;margin:34px 0;padding:34px clamp(18px,4vw,40px) 30px;border-radius:18px;background:var(--paper);
+  box-shadow:inset 0 0 0 4px var(--gold),inset 0 0 0 8px var(--rose),0 12px 24px rgba(60,10,40,.3);scroll-margin-top:70px}
+section h2{position:absolute;left:50%;top:-24px;transform:translateX(-50%);margin:0;white-space:nowrap;
+  padding:4px 26px 6px;background:var(--rose);color:var(--cream);font:clamp(20px,4vw,28px) Rye,serif;letter-spacing:2px;
+  box-shadow:inset 0 3px 0 var(--gold),inset 0 -3px 0 var(--gold),0 6px 12px rgba(60,10,40,.35)}
+section p{margin:.6em 0}
+.num{color:var(--gold);margin-right:6px}
+.tip{margin:14px 0;padding:10px 16px;border-radius:12px;background:#f3d6e1;border-left:6px solid var(--rose)}
+.tip b{font-family:"Lilita One",sans-serif;font-weight:400;color:var(--plum)}
+
+/* tall guide images: framed, scrollable, open full size */
+figure{margin:20px 0 6px}
+.guide{max-height:80vh;overflow:auto;border-radius:12px;background:#120a10;box-shadow:inset 0 0 0 3px var(--plum)}
+.guide img{width:100%}
+figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:6px;font-size:17px;color:var(--plum)}
+figcaption a{font-family:"Lilita One",sans-serif;text-decoration:none}
+
+.mods{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+.mod{padding:14px 16px;border-radius:12px;background:var(--cream);box-shadow:inset 0 0 0 2px var(--rose)}
+.mod b{display:block;font:20px "Lilita One",sans-serif;color:var(--plum);margin-bottom:4px}
+
+footer{max-width:980px;margin:0 auto 40px;padding:18px 16px;text-align:center;color:var(--ink);font-size:17px}
+footer .box{background:rgba(251,243,226,.85);border-radius:14px;padding:16px 20px;box-shadow:inset 0 0 0 2px var(--rose)}
+.top{position:fixed;right:16px;bottom:16px;width:48px;height:48px;border-radius:50%;background:var(--rose);color:var(--cream);
+  display:flex;align-items:center;justify-content:center;text-decoration:none;font:24px Rye;box-shadow:inset 0 0 0 3px var(--gold),0 4px 10px rgba(0,0,0,.3)}
+@media (max-width:600px){ body{font-size:18px} .ribbon::before,.ribbon::after{display:none} section h2{white-space:normal;width:86%;text-align:center} }
+@media (prefers-reduced-motion:reduce){ *{animation:none!important;scroll-behavior:auto} }
+</style>
+</head>
+<body>
+<div class="valance"></div>
+
+<header>
+  <div class="hero"><div class="bulbs"></div>
+    <img src="images/cafe.png" alt="Nakki con su taza de té">
+  </div><br>
+  <div class="ribbon">NAKKI</div>
+  <p class="sub">La maestra de ceremonias del <b>Circ de l'Horta</b>. Aquí tienes cómo funciona y todos sus comandos para jugar con ella desde el chat de Twitch.</p>
+  <a class="twitch" href="https://www.twitch.tv/circdelhorta" target="_blank" rel="noopener">🎪 twitch.tv/circdelhorta</a>
+</header>
+
+<nav>
+  <a href="#quien">¿Quién es?</a>
+  <a href="#juega">Juega con Nakki</a>
+  <a href="#phasmo">Phasmophobia</a>
+  <a href="#7dtd">7 Days to Die</a>
+  <a href="#otros">Otros juegos</a>
+  <a href="#sims">The Sims 4</a>
+</nav>
+
+<main>
+  <section id="quien">
+    <h2><span class="num">1</span>¿Quién es Nakki?</h2>
+    <p>Nakki es la maestra de ceremonias del canal.</p>
+    <p>Encontró mi canal abandonado, en desuso, entró... y la puerta se cerró tras ella. Ahora el circo es suyo.</p>
+    <p>Se alimenta de vosotros (vuestra atención y emociones, sobre todo las negativas) y de los nervios, la rabia y el miedo de la anfitriona (aka yo). Si la descuidamos, se enfada, y cuando se enfada el circo toma la pantalla 🎭: pantalla tintada, gifs, sonidos... todo para impedir que vea bien lo que hago en el juego.</p>
+  </section>
+
+  <section id="juega">
+    <h2><span class="num">2</span>Juega con Nakki</h2>
+    <p>Nakki tiene comandos básicos compartidos entre juegos. «Adivina el fantasma» es una modalidad del Phasmophobia y se explica más abajo.</p>
+    <div class="tip"><b>Lo más importante:</b> conseguir monedas Nakki. Para ello, escribe en el chat: cada mensaje da <b>+3 monedas</b> (máx. una vez cada 5 s, sin spam).</div>
+    <figure>
+      <div class="guide"><img src="images/nakki_info(1).png" alt="Guía general de comandos de Nakki" loading="lazy"></div>
+      <figcaption><span>Comandos generales</span><a href="images/nakki_info(1).png" target="_blank">Ver a tamaño completo ↗</a></figcaption>
+    </figure>
+  </section>
+
+  <section id="phasmo">
+    <h2><span class="num">3</span>Nakki en Phasmophobia</h2>
+    <p>Cuando juego al Phasmophobia, Nakki tiene una modalidad específica con comandos nuevos.</p>
+    <p>Cada vez que entramos en una casa nueva, abro sesión con <b>!contrato</b> y Nakki abre la porra para que cada uno apueste qué fantasma es. Si aciertas, te llevas <b>+20 monedas</b> y <b>+1 estrella dorada</b>. Nakki también apuesta al azar al abrir la porra: si acierta, os quita 10 monedas a cada uno de los que hayáis fallado.</p>
+    <p>¡También puede fastidiarnos a mis colegas y a mí con <b>travesuras</b>! Hay comandos para que podáis ayudarla (o protegernos). Los precios pueden ir cambiando según funcionen mejor o peor; iré actualizándolo aquí.</p>
+    <figure>
+      <div class="guide"><img src="images/nakki_phasmo_comandos_100.png" alt="Diario del investigador: comandos de Nakki en Phasmophobia" loading="lazy"></div>
+      <figcaption><span>Diario del investigador</span><a href="images/nakki_phasmo_comandos_100.png" target="_blank">Ver a tamaño completo ↗</a></figcaption>
+    </figure>
+  </section>
+
+  <section id="7dtd">
+    <h2><span class="num">4</span>Nakki en 7 Days to Die</h2>
+    <p>Como en el Phasmophobia, también hay comandos específicos para el 7D2D. Además, solemos jugar con la integración de Twitch que ofrece el juego, que también está conectada con Nakki.</p>
+    <figure>
+      <div class="guide"><img src="images/nakki_guia_7dtd.png" alt="Cómo funciona Nakki en 7 Days to Die" loading="lazy"></div>
+      <figcaption><span>Nakki en 7 Days to Die</span><a href="images/nakki_guia_7dtd.png" target="_blank">Ver a tamaño completo ↗</a></figcaption>
+    </figure>
+    <p>Estos son los comandos de la integración de Twitch. También los podéis encontrar online, pero los dejo aquí para que esté todo en el mismo sitio.</p>
+    <figure>
+      <div class="guide"><img src="images/nakki_comandos_7dtd.png" alt="Todos los comandos # de la integración de Twitch en 7 Days to Die" loading="lazy"></div>
+      <figcaption><span>Todos los comandos # (desliza dentro del recuadro)</span><a href="images/nakki_comandos_7dtd.png" target="_blank">Ver a tamaño completo ↗</a></figcaption>
+    </figure>
+    <p>Jugamos con el mod <b>REBIRTH</b> y tres mods hechos por mí (quizás algún día los publique):</p>
+    <div class="mods">
+      <div class="mod"><b>🌊 Zombis que se ahogan</b>Si entran en el agua, se ahogan. Lo hice porque queríamos una base en medio de un lago, jaja.</div>
+      <div class="mod"><b>🌲 Deep Forest</b>Un subbioma dentro del bosque con más árboles y niebla densa. Y el hierro solo se encuentra ahí.</div>
+      <div class="mod"><b>🕯️ Sanidad</b>Cuanto más tiempo en la oscuridad, menos sanidad. Hay que equilibrar ir a escondidas con evitar los efectos de baja sanidad (tipo borracho).</div>
+    </div>
+  </section>
+
+  <section id="otros">
+    <h2><span class="num">5</span>Nakki en otros juegos</h2>
+    <p>En el resto de juegos (Remnant 2, Lords of the Fallen, RuneScape: Dragonwilds, etc.), Nakki sigue contando las muertes (y los sustos cuando toca), y los comandos básicos funcionan (tintar la pantalla, gifs, sonidos...). De momento solo pueden afectarme a mí, pero iré añadiendo opciones para que también se puedan usar con mis compañeras.</p>
+  </section>
+
+  <section id="sims">
+    <h2><span class="num">6</span>Nakki en The Sims 4</h2>
+    <p>Estoy trabajando en un mod en el que Nakki controla un Sim (en solitario o viviendo con el mío) mientras oímos sus pensamientos y por qué decide hacer ciertas cosas. Todo en local, usando solo los recursos de mi portátil. Aún está en desarrollo (soy nueva en esto de moddear los Sims).</p>
+  </section>
+</main>
+
+<footer><div class="box">
+  <p>¿Sugerencias? Mandadlas al Twitter del canal: <a href="https://twitter.com/CircDeLHorta" target="_blank" rel="noopener"><b>@CircDeLHorta</b></a></p>
+  <p>Arte de Nakki hecho por mí, no usar. Nakki está inspirada en Nikola Orsinov de <i>The Magnus Archives</i>, un podcast del que soy muy fan (de hecho, también jugamos al rol de TMA en el canal). Nakki es un script hecho por Rachy. No muerde. Casi.</p>
+  <p>Disclaimer: Nakki es un programa offline que lee el chat en tiempo real. Voz de Nakki: AlesiaDavina (Pixabay).</p>
+</div></footer>
+<a class="top" href="#" aria-label="Volver arriba">↑</a>
+</body>
+</html>
