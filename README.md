@@ -1,8 +1,6 @@
 # Nakki
 (Repositorio que contiene la expliación y comandos para usar a Nakki desde el chat (Twitch:cirdelhorta))
-
 ![Nakki](https://github.com/amgirios88/nakki/blob/7b8472e0431a7701e138b14f5c246602b9174c3e/images/cafe.png)
-
 ## Contenido
 1. [¿Quién es Nakki?](##-1.-¿Quién-es-Nakki?)
 2. [Juega con Nakki](##-2.-Juega-con-Nakki)
