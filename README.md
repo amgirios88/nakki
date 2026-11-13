@@ -2,7 +2,7 @@
 (Repositorio que contiene la expliación y comandos para correr Nakki desde el chat (Twitch:cirdelhorta))
 
 ## Contenido
-1. [¿Quién es Nakki?](## 1. ¿Quién es Nakki?)
+1. [¿Quién es Nakki?](##-1.-¿Quién-es-Nakki?)
 2. [Juega con Nakki](## 2. Juega con Nakki)
 3. [Nakki en Phasmophobia](## 3. Nakki en Phasmophobia)
 4. [Nakki en 7 Days to Die](## 4. Nakki en 7 Days to Die)
