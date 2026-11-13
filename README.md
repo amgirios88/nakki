@@ -1,2 +1,14 @@
-# nakki
-Repositorio que contiene la expliación y comandos para correr Nakki desde el chat (Twitch) de circdelhorta
+# Nakki
+(Repositorio que contiene la expliación y comandos para correr Nakki desde el chat (Twitch:cirdelhorta))
+
+## ¿Quién es Nakki?
+Nakki es la maestra de ceremonias del canal.
+
+Encontró mi canal abandonado, en desuso, entró... y la puerta se cerró tras de ella. Ahora el circo es suyo.
+
+Se alimento de vosotros (vuestra atención y emociones, sobre todo las negativas) y de los nervios, la rabia y el miedo de la anfitriona (aka yo). Si la descuidamos, se enfada, y cuando se enfada el circo toma la pantalla 🎭 (como pantalla tintada, gifs, sonidos... todo para impedir que vea bien lo que hago en el juego)
+
+
+
+
+(Nakki es un script hecho por Rachy. No muerde. Casi. · Disclaimer: Nakki es un programa offline que lee el chat en tiempo real. Nakki’s voice (AlesiaDavina, Pixabay))
