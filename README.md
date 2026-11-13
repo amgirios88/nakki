@@ -34,9 +34,11 @@ Cada vez que entramos en una casa nueva, abro sesión con "!contrato" y Nakki of
 Al igual que con el Phasmophobia, también hay comandos específicos para el 7D2D. Además, solemos jugar con el Twitch integrated que ofrece el juego, el cual está integrado también en Nakki.
 
 Esta es la información general de cómo Nakki funciona en el contexto del 7D2D.
+
 ![Nakki Info 7D2D](https://github.com/amgirios88/nakki/blob/9c4188ebc61d00c12660b081a919a2b045cd8c78/images/nakki_guia_7dtd.png)
 
 Estos son los comandos que pueden usarse con el Twitch integrated. También los podéis encontrar online, pero los dejo aquí para que esté todo en el mismo sitio.
+
 ![7D2D Twitch Integration](https://github.com/amgirios88/nakki/blob/9c4188ebc61d00c12660b081a919a2b045cd8c78/images/nakki_guia_7dtd.png)
 
 Jugamos ahora mismo con el mod REBIRTH, y luego tres mods que he creado yo (quizás algún día los publique): mod que permite a los zombis ahogarse si entran en el agua (esto lo hice porque queríamos poder tener una base en medio de un lago jaja); mod que genera un porcentaje de subbioma "deep forest" dentro del bioma bosque que tiene más densidad de árboles y niebla densa, además el hierro sólo se encuentra ahí; y finalmente un mod que introduce sanidad, descontando sanidad a más permanecemos en la oscuridad, obligándonos a encontrar un balance entre ir a escondidas y evitar los efectos de baja sanidad (tipo borracho).
