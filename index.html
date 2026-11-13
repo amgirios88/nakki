@@ -85,6 +85,16 @@ footer .box{background:rgba(251,243,226,.85);border-radius:14px;padding:16px 20p
   display:flex;align-items:center;justify-content:center;text-decoration:none;font:24px Rye;box-shadow:inset 0 0 0 3px var(--gold),0 4px 10px rgba(0,0,0,.3)}
 @media (max-width:600px){ body{font-size:18px} .ribbon::before,.ribbon::after{display:none} section h2{white-space:normal;width:86%;text-align:center} }
 @media (prefers-reduced-motion:reduce){ *{animation:none!important;scroll-behavior:auto} }
+
+.creditos{
+  background:transparent;          /* no cream card, uses the footer's colour */
+  box-shadow:none;                 /* removes the gold + pink double border and the shadow */
+  border:2px solid #f3d6e1;        /* a thin light pink line */
+  border-radius:4px;
+  margin:20px 0 0;
+  padding:16px 24px;
+}
+
 </style>
 </head>
 <body>
@@ -170,8 +180,8 @@ footer .box{background:rgba(251,243,226,.85);border-radius:14px;padding:16px 20p
 
 <footer><div class="box">
   <p>¿Sugerencias? Mandadlas al Twitter del canal: <a href="https://twitter.com/CircDeLHorta" target="_blank" rel="noopener"><b>@CircDeLHorta</b></a></p>
-    <section id="creditos">
-    <h3></span>Créditos</h3>
+    <section class="creditos">
+    <h3>Créditos</h3>
     <p>Arte de Nakki hecho por mí, no usar.</p>
     <p>Nakki está inspirada en Nikola Orsinov de <i>The Magnus Archives</i>, un podcast del que soy muy fan (de hecho, también jugamos al rol de TMA en el canal).</p>
     <p>Nakki es un script hecho por Rachy. No muerde. Casi.</p>
