@@ -2,14 +2,14 @@
 (Repositorio que contiene la expliación y comandos para usar a Nakki desde el chat (Twitch:cirdelhorta))
 ![Nakki](https://github.com/amgirios88/nakki/blob/7b8472e0431a7701e138b14f5c246602b9174c3e/images/cafe.png)
 ## Contenido
-1. [¿Quién es Nakki?](##-1-quién-es-nakki)
+1. [¿Quién es Nakki?](##quién-es-nakki)
 2. [Juega con Nakki](##-2.-Juega-con-Nakki)
 3. [Nakki en Phasmophobia](##-3.-Nakki-en-Phasmophobia)
 4. [Nakki en 7 Days to Die](##-4.-Nakki-en-7-Days-to-Die)
 5. [Nakki en otros juegos](##-5.-Nakki-en-otros-juegos)
 6. [Nakki en The Sims 4](##-6.-Nakki-en-The-Sims-4)
 
-## 1. ¿Quién es Nakki?
+## Quién es Nakki
 Nakki es la maestra de ceremonias del canal.
 
 Encontró mi canal abandonado, en desuso, entró... y la puerta se cerró tras de ella. Ahora el circo es suyo.
