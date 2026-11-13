@@ -1,5 +1,7 @@
 # Nakki
-(Repositorio que contiene la expliación y comandos para correr Nakki desde el chat (Twitch:cirdelhorta))
+(Repositorio que contiene la expliación y comandos para usar a Nakki desde el chat (Twitch:cirdelhorta))
+
+
 
 ## Contenido
 1. [¿Quién es Nakki?](##-1.-¿Quién-es-Nakki?)
@@ -50,4 +52,4 @@ En el resto de juegos (Remnant 2, Lords of the Fallen, RunEscape Dragonwilds, et
 Estoy trabajando en un mod en el que Nakki puede controlar un Sim (tanto en solitario como un Sim que vive con el mío), mientras oímos sus pensamientos y por qué decide hacer ciertas acciones. Todo on-premises, usando los recursos de mi portátil en exclusiva. Pero aún está en desarrollo (soy nueva a moddear los Sims).
 
 ## Si tenéis alguna sugerencia, podéis mandarla al Twitter del canal (@CircDeLHorta).
-(Nakki es un script hecho por Rachy. No muerde. Casi. · Disclaimer: Nakki es un programa offline que lee el chat en tiempo real. Nakki’s voice (AlesiaDavina, Pixabay))
+(Arte de Nakki hecho por mí, no usar. Nakki está inspirada en el personaje Nikola Orsinov de The Magnus Archives, un podcast del que soy muy fan -de hecho jugamos al roleplay de TMA en el canal también-. Nakki es un script hecho por Rachy. No muerde. Casi. · Disclaimer: Nakki es un programa offline que lee el chat en tiempo real. Nakki’s voice (AlesiaDavina, Pixabay))
