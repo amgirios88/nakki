@@ -6,8 +6,9 @@
 2. [Juega con Nakki](#2-juega-con-nakki)
 3. [Nakki en Phasmophobia](#3-nakki-en-phasmophobia)
 4. [Nakki en 7 Days to Die](#4-nakki-en-7-days-to-die)
-5. [Nakki en otros juegos](#5-nakki-en-otros-juegos)
-6. [Nakki en The Sims 4](#6-nakki-en-the-sims-4)
+5. [Nakki en los soulslike](#5-nakki-en-los-soulslike)
+6. [Nakki en otros juegos](#6-nakki-en-otros-juegos)
+7. [Nakki en The Sims 4](#7-nakki-en-the-sims-4)
 
 ## 1. ¿Quién es Nakki?
 Nakki es la maestra de ceremonias del canal.
@@ -43,10 +44,22 @@ Estos son los comandos que pueden usarse con el Twitch integrated. También los 
 
 Jugamos ahora mismo con el mod REBIRTH, y luego tres mods que he creado yo (quizás algún día los publique): mod que permite a los zombis ahogarse si entran en el agua (esto lo hice porque queríamos poder tener una base en medio de un lago jaja); mod que genera un porcentaje de subbioma "deep forest" dentro del bioma bosque que tiene más densidad de árboles y niebla densa, además el hierro sólo se encuentra ahí; y finalmente un mod que introduce sanidad, descontando sanidad a más permanecemos en la oscuridad, obligándonos a encontrar un balance entre ir a escondidas y evitar los efectos de baja sanidad (tipo borracho).
 
-## 5. Nakki en otros juegose
-En el resto de juegos (Remnant 2, Lords of the Fallen, RunEscape Dragonwilds, etc), Nakki aún cuenta las muertas (y sustos cuando aplique), y los comandos básicos aplican (tintar pantalla, gif, sonido...). De momento sólo puede afectarme a mí, pero próximamente iré añadiendo para que también se le pueda hacer a mis compañeras.
+## 5. Nakki en los soulslike
+En Remnant 2, Dark Souls II y Lords of the Fallen, Nakki trae la **ruleta del infortunio** 🎡. De vez en cuando (cada 40-70 minutos) gira una ruleta en pantalla que decide quién elige el arma, la armadura o las dos:
+- **Elegimos nosotras:** nos libramos. Esta vez.
+- **Aleatorio:** usamos un randomizer y nos ponemos lo que salga, aunque sea horrible.
+- **Decide el chat:** ponemos las opciones y sale una votación en pantalla. Votáis escribiendo el número en el chat (1, 2, 3...). Si nadie vota, elige Nakki.
 
-## 6. Nakki en The Sims 4
+Comandos:
+- `!ruleta`: cuánto falta para el próximo giro y cuánto cuesta.
+- `!ruleta gira`: la hace girar ya por 250 monedas (mínimo 20 minutos entre giros). Los precios pueden ir cambiando.
+
+En el Crimson Moon no hay ruleta: el juego funciona de forma un poco rara y no encaja.
+
+## 6. Nakki en otros juegos
+En el resto de juegos (RuneScape: Dragonwilds, etc), Nakki aún cuenta las muertes (y sustos cuando aplique), y los comandos básicos aplican (tintar pantalla, gif, sonido...). De momento sólo puede afectarme a mí, pero próximamente iré añadiendo para que también se le pueda hacer a mis compañeras.
+
+## 7. Nakki en The Sims 4
 Estoy trabajando en un mod en el que Nakki puede controlar un Sim (tanto en solitario como un Sim que vive con el mío), mientras oímos sus pensamientos y por qué decide hacer ciertas acciones. Todo on-premises, usando los recursos de mi portátil en exclusiva. Pero aún está en desarrollo (soy nueva a moddear los Sims).
 
 ## Si tenéis alguna sugerencia, podéis mandarla al Twitter del canal (@CircDeLHorta).
