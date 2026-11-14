@@ -7,8 +7,9 @@
 3. [Nakki en Phasmophobia](#3-nakki-en-phasmophobia)
 4. [Nakki en 7 Days to Die](#4-nakki-en-7-days-to-die)
 5. [Nakki en los soulslike](#5-nakki-en-los-soulslike)
-6. [Nakki en otros juegos](#6-nakki-en-otros-juegos)
-7. [Nakki en The Sims 4](#7-nakki-en-the-sims-4)
+6. [Work with me](#6-work-with-me)
+7. [Nakki en otros juegos](#7-nakki-en-otros-juegos)
+8. [Nakki en The Sims 4](#8-nakki-en-the-sims-4)
 
 ## 1. ¿Quién es Nakki?
 Nakki es la maestra de ceremonias del canal.
@@ -45,7 +46,7 @@ Estos son los comandos que pueden usarse con el Twitch integrated. También los 
 Jugamos ahora mismo con el mod REBIRTH, y luego tres mods que he creado yo (quizás algún día los publique): mod que permite a los zombis ahogarse si entran en el agua (esto lo hice porque queríamos poder tener una base en medio de un lago jaja); mod que genera un porcentaje de subbioma "deep forest" dentro del bioma bosque que tiene más densidad de árboles y niebla densa, además el hierro sólo se encuentra ahí; y finalmente un mod que introduce sanidad, descontando sanidad a más permanecemos en la oscuridad, obligándonos a encontrar un balance entre ir a escondidas y evitar los efectos de baja sanidad (tipo borracho).
 
 ## 5. Nakki en los soulslike
-En Remnant 2, Dark Souls II y Lords of the Fallen, Nakki trae la **ruleta del infortunio** 🎡. De vez en cuando (cada 40-70 minutos) gira una ruleta en pantalla que decide quién elige el arma, la armadura o las dos:
+En Remnant 2, Dark Souls II y Lords of the Fallen, Nakki trae la **ruleta del infortunio** 🎡. De vez en cuando (cada 30-40 minutos) gira una ruleta en pantalla que decide quién elige el arma, la armadura o las dos:
 - **Elegimos nosotras:** nos libramos. Esta vez.
 - **Aleatorio:** usamos un randomizer y nos ponemos lo que salga, aunque sea horrible.
 - **Decide el chat:** ponemos las opciones y sale una votación en pantalla. Votáis escribiendo el número en el chat (1, 2, 3...). Si nadie vota, elige Nakki.
@@ -56,10 +57,25 @@ Comandos:
 
 En el Crimson Moon no hay ruleta: el juego funciona de forma un poco rara y no encaja.
 
-## 6. Nakki en otros juegos
+## 6. Work with me
+En los directos de **trabajar juntas** (estudiar, escribir, programar...) no hay juego: hay una guirnalda de banderines, **La colla treballa**. Cada persona del chat cuelga su banderín con lo que está haciendo, y cada tarea terminada enciende una bombilla para todo el grupo. Cuando se encienden todas: ¡función completa!
+
+Además hay un **pomodoro** en pantalla, y Nakki (en versión de trabajo) lo apunta todo en su libreta y os recuerda beber agua y estirar.
+
+- `!tarea <texto>`: cuelga tu banderín con lo que haces (o lo cambia). Ej.: `!tarea leer el capítulo 3`
+- `!hecho`: tarea terminada. Estrella en tu banderín y una bombilla más para todos.
+- `!pausa` / `!vuelvo`: te vas a por un café y vuelves.
+- `!aplauso @nombre`: aplaude a alguien de la colla.
+- `!quitar`: descuelga tu banderín.
+- `!pomo`: cuánto queda del pomodoro.
+- `!colla`: recuerda todos estos comandos en el chat.
+
+Si no escribes nada en 2 horas, tu banderín se descuelga solo.
+
+## 7. Nakki en otros juegos
 En el resto de juegos (RuneScape: Dragonwilds, etc), Nakki aún cuenta las muertes (y sustos cuando aplique), y los comandos básicos aplican (tintar pantalla, gif, sonido...). De momento sólo puede afectarme a mí, pero próximamente iré añadiendo para que también se le pueda hacer a mis compañeras.
 
-## 7. Nakki en The Sims 4
+## 8. Nakki en The Sims 4
 Estoy trabajando en un mod en el que Nakki puede controlar un Sim (tanto en solitario como un Sim que vive con el mío), mientras oímos sus pensamientos y por qué decide hacer ciertas acciones. Todo on-premises, usando los recursos de mi portátil en exclusiva. Pero aún está en desarrollo (soy nueva a moddear los Sims).
 
 ## Si tenéis alguna sugerencia, podéis mandarla al Twitter del canal (@CircDeLHorta).
